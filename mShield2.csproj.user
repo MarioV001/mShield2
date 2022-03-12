@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="BlockAppPopUp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataSelectionScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ExPopUp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login_Screen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Shield_List.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="BlockAppPopUp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataSelectionScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ExPopUp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login_Screen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Shield_List.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
